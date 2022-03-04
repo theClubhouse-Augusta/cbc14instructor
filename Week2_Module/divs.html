@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divs and Spans</title>
+
+    <style>
+        p {
+            background-color: #fc9;
+        }
+    
+        span {
+            display: block;
+        }
+        div { background-color: #ccc; }
+
+        header, div#header {
+            background-color:rgb(250, 234, 11);
+        }
+
+        div.left_navigation {
+            background-color: rgb(15, 188, 231);
+            width: 200px;
+            float: left;
+        }
+
+        div.navigation {
+            background-color: #ffc;
+            width: 200px;
+            float: left;
+        }
+
+        div.content {
+            width: 500px;
+            float: left;
+        }
+
+        div.footer { 
+            clear: both;
+            background-color: #cff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main_page">
+
+        <header id="header">
+            <h1>Fun with Divs and Spans</h1>
+        </header>
+
+        <aside>
+        </aside>
+        
+
+        <div class="left_navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="divs.html">Divs</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>Fun with Divs</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non sequi neque voluptas corporis nostrum, sit, asperiores nobis, qui harum ipsam nam quis repellendus. Cupiditate eum quibusdam tempora. Similique dolores earum eligendi voluptatibus? Molestiae harum tempore vel nemo fuga consectetur suscipit doloribus totam provident, aliquid qui odio facilis ipsa ea deleniti.
+            </p>
+        </div>
+
+        <div id="side_nav" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="divs.html">Divs</a></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>Copyright &copy;2021</p>
+        </div>
+
+        
+    </div>
+</body>
+</html>
