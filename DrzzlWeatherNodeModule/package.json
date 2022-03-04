@@ -1,0 +1,22 @@
+{
+  "name": "drzzlweather",
+  "version": "1.0.0",
+  "description": "Class definition of the drzzl weather app for fetching current climate info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Harrison",
+  "license": "ISC",
+  "dependencies": {
+    "weather-js": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbc12instructor/DrzzlWeather.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbc12instructor/DrzzlWeather/issues"
+  },
+  "homepage": "https://github.com/cbc12instructor/DrzzlWeather#readme"
+}
