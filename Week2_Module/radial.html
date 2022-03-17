@@ -3,31 +3,53 @@
     <head>
     <style>
     body {
-      height: 200px;
-      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,110,121,1) 35%, rgba(0,212,255,1) 100%);
-    
+      /* height: 100vh; */
+      background: linear-gradient(102deg, rgba(30,9,121,1) 2%, rgba(30,9,121,1) 8%, rgba(166,0,255,0.7481859520123839) 100%);
+      background-repeat: no-repeat;
     }
 
     div {
         width: 600px;
-        border: 100px solid antiquewhite;
+        border: 100px solid rgba(255,201,0,0.7481859520123839);
         border-radius: 70px;
         padding: 80px;
         margin: 15vw 15vw 15vw 15vw;
-        text-shadow: 10px 10px black;
+        text-shadow: 10px 10px rgba(166,0,255,0.7481859520123839);
     }
 
     .center {
-        margin: auto;
+        margin: 0vh 10vw;
         width: 60%;
         padding: 10px;
         text-align:left;
-        text-shadow: 10px 10px black;
+        text-shadow: 10px 10px rgba(166,0,255,0.7481859520123839);
+        /* animation: stoic_animation 3s linear 1s infinite slidein alternate; */
+        /* animation-name: stoicAnimation;
+        animation-duration: 8s; */
+        /* animation-delay: 1s; */
+        /* animation-iteration-count: infinite;
+        position: absolute;
+        animation-timing-function: linear;
+        animation-fill-mode: alternate; */
+        /* animation-play-state: slidein; */
     }
 
     p {
-        color: mintcream;
-        text-shadow: 1px 1px black;
+        color: rgba(254,216,13,1);
+        text-shadow: 1px 1px rgba(166,0,255,0.7481859520123839);
+    }
+
+    @keyframes stoicAnimation {
+        15%  {top: 0vh; left: 5vw;}
+        25%  {top: 5vh; left: 6vw;}
+        35%  {top: 10vh; left: 10vw;}
+        45%  {top: 15vh; left: 10vw;}
+        50%  {top: 20vh; left: 10vw;}
+        65%  {top: 20vh; right: 5vw;}
+        70%  {top: 20vh; right: 15vw;}
+        75%  {top: 10vh; right: 20vw;}
+        85%  {top: 5vh; right: 20vw;}
+        100% {top: 0vh; right: 10vw;}
     }
             
     </style>
@@ -35,7 +57,7 @@
     <body>
     <div class="center">
     <h1 style="
-        color: antiquewhite;
+        color: rgba(255,201,0,0.7481859520123839);
         border: 14px;
         font-family: ui-sans-serif;
         font-size: 10vw;
