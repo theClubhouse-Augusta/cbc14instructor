@@ -1,3 +1,11 @@
+
+/* 
+ author: Evan Gertis
+ date: 03/21/2022
+ javascript module solution.
+*/
+
+
 const para = document.querySelector('p');
 // create a div
 const div = document.getElementById("paragraph");
@@ -11,8 +19,9 @@ function updateName() {
 
 // append a bio
 function createBio() {
-    const name = prompt('Enter a new name');
     paragraph = document.createElement("p");
-    paragraph.innerHTML = "I am a Human.";
+    const stringToAppend = "I am a Human.";
+    paragraph.innerHTML = stringToAppend;
     div.appendChild(paragraph);
-  }
+    console.log("completed createBio");
+}
