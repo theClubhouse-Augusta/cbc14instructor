@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+    <style>
+      #example {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 5px;
+        justify-items: right;
+        background-color: #cccccc;
+      }
+      #example > div {
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+        width: 100px;
+        height: 50px;
+      }
+      .bone {
+        background-color: #1c87c9;
+      }
+      .two {
+        background-color: #8ebf42;
+      }
+      .three {
+        background-color: #666666;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Justify-items property example</h2>
+    <div id="example">
+      <div class="one">1</div>
+      <div class="two">2</div>
+      <div class="three">3</div>
+    </div>
+  </body>
+</html>
