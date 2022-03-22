@@ -16,7 +16,7 @@ function updateParagraph(paragraph){
     var result = add(a,b);
     var resultingString = result.toString();
     paragraph.innerHTML = resultingString;
-    alert(resultingString);
+    alert(resultingString); 
 }
 
 function add(a,b){

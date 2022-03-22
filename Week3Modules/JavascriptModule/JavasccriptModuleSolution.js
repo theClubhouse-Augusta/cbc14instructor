@@ -19,7 +19,7 @@ function updateName() {
 
 // append a bio
 function createBio() {
-    paragraph = document.createElement("p");
+    var paragraph = document.createElement("p");
     const stringToAppend = "I am a Human.";
     paragraph.innerHTML = stringToAppend;
     div.appendChild(paragraph);

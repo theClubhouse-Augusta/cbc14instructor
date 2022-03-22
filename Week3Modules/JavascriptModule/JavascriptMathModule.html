@@ -23,6 +23,14 @@ function subtract(x,y){
 	return x - y;
 }
 
+function calculateRadius(circumference){
+    return circumference/(Math.PI)
+}
+
+function calculateAreaOfACircle(radius){
+    return Math.PI*Math.pow(radius,2);
+}
+
 function myFunction(x, y) {
   if (y === undefined) {
     y = 2;
@@ -33,7 +41,10 @@ function myFunction(x, y) {
 // document.getElementById("demo").innerHTML = multiply(4,3);
 // document.getElementById("demo").innerHTML = divide(4,3);
 // document.getElementById("demo").innerHTML = subtract(4,3);
-document.getElementById("demo").innerHTML = myFunction(4,3);
+// document.getElementById("demo").innerHTML = myFunction(4,3);
+// document.getElementById("demo").innerHTML = calculateRadius(3);
+var radius = calculateRadius(3);
+document.getElementById("demo").innerHTML = calculateAreaOfACircle(radius);
 </script>
 
 </body>
