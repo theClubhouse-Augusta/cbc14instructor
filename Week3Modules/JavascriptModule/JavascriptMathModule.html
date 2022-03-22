@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Setting a default value to a function parameter.</p>
+<p id="demo"></p>
+
+<script>
+
+function add(x,y) {
+	return x+y;
+}
+
+function multiply(x,y){
+	return x*y;
+}
+
+function divide(x,y){
+	return x/y;
+}
+
+function subtract(x,y){
+	return x - y;
+}
+
+function myFunction(x, y) {
+  if (y === undefined) {
+    y = 2;
+  }  
+  return x + y;
+}
+// document.getElementById("demo").innerHTML = add(4,3);
+// document.getElementById("demo").innerHTML = multiply(4,3);
+// document.getElementById("demo").innerHTML = divide(4,3);
+document.getElementById("demo").innerHTML = subtract(4,3);
+</script>
+
+</body>
+</html>
