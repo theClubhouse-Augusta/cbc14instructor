@@ -51,6 +51,14 @@ body {
   position: relative;
 }
 
+.chocolate-brownie {
+  background-color: #4b3712;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: relative;
+}
+
 .peanut-butter {
   background-color: #c57d1e;
   width: 100px;
@@ -60,7 +68,7 @@ body {
 }
 
 .icecream::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 10px;
   left: 0px;
