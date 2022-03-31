@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<style>
+.myStyle {
+  background-color: coral;
+  padding: 16px;
+}
+</style>
+
+<body>
+<h1>The Element Object</h1>
+<h2>The classList Property</h2>
+
+<button onclick="myFunction()">toggle</button>
+<p>Click "toggle" to add the "myStyle" class to myDIV.</p>
+
+<div id="myDIV">
+<p>I am a myDIV.</p>
+</div>
+
+<script>
+function myFunction() {
+  document.getElementById("myDIV").classList.toggle("myStyle");
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to find out if the onclick event is a bubbling event.</p>
+
+<button onclick="myFunction(event)">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var my_event
+function myFunction(event) { 
+  var x = event.bubble;
+  document.getElementById("demo").innerHTML = x;
+  my_event = event.target;
+}
+</script>
+
+</body>
+</html>

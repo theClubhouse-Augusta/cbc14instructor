@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button id="button">The time is?</button>
+
+<p id="demo"></p>
+
+</body>
+</html>
+
+<script>
+    function main(){
+        document.getElementById('button').addEventListener('click', function click(e){
+            const paragraph = document.getElementById("demo")
+            paragraph.innerHTML = Date.now();
+        });
+    }
+
+    main();
+</script>

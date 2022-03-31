@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript String Methods</h2>
+
+<p>The slice() method extract a part of a string
+and returns the extracted parts in a new string:</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = findTheMaxValue();
+
+function findTheMaxValue(){
+    var array = [1,2,3,4,3,3,4,6];
+    return getMaxValue(array);
+}
+
+function getMaxValue(array){
+    var max = array[0];
+    for(var i = 0; i < array.length; i++){
+        if(array[i] > max){
+            max = array[i];
+        }
+    }
+
+    return max;
+}
+</script>
+
+</body>
+</html>

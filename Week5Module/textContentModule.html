@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The Element Object</h1>
+<h2>The textContent Property</h2>
+
+<button id="myBtn">Try it</button>
+<p id="my-new-paragraph">My text content</p>
+
+<p>The paragraph content is:</p>
+<p id="demo"></p>
+
+<script>
+let text = document.getElementById("my-new-paragraph").textContent;
+document.getElementById("demo").innerHTML = text;  
+</script>
+
+</body>
+</html>

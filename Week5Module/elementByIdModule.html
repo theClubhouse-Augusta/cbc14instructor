@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The Element Object</h1>
+<h2>The id Property</h2>
+
+<a id="myAnchor1" href="https://www.w3schools.com/html/">HTML</a>
+<a id="myAnchor2" href="https://www.w3schools.com/css/">CSS</a>
+<a id="myAnchor3" href="https://www.w3schools.com/js/">JavaScript</a>
+
+<p>The value of the id attribute of the first link is:</p>
+<p id="demo"></p>
+
+<script>
+let id = document.getElementsByTagName("a")[2].id;
+document.getElementById("demo").innerHTML = id;
+</script>
+
+</body>
+</html>
