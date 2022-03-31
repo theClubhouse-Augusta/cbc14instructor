@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.democlass {
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h1 class="democlass">Hello World</h1>
+
+<p id="demo">Click the button to remove the class attribute from the h1 element.</p>
+
+<button id="myBtn" onclick="myFunction()">Try it</button>
+<h1>The Element Object</h1>
+<h2>The hasAttribute() Method</h2>
+
+<script>
+function myFunction() {
+  const myButton = document.getElementById("myBtn");
+  if(myButton.hasAttribute("onclick")){
+    console.log("made it to line 24.");
+    document.getElementsByTagName("H1")[0].removeAttribute("class"); 
+  }
+  else {
+      document.getElementById("demo").innerHTML = "The onclick attribute does not exist on the button";
+  }
+}
+</script>
+
+</body>
+</html>
+

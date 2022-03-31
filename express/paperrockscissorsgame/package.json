@@ -1,0 +1,47 @@
+{
+  "_args": [
+    [
+      "github:cbc12instructor/PaperRockScissorsGame",
+      "/Users/evangertis/development/cbc14instructor/PaperRockScissorsServer"
+    ]
+  ],
+  "_from": "github:cbc12instructor/PaperRockScissorsGame",
+  "_id": "paperrockscissorsgame@github:cbc12instructor/PaperRockScissorsGame#52ffc76176b9eb79583554d684ba878e4034141f",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/paperrockscissorsgame",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:cbc12instructor/PaperRockScissorsGame",
+    "rawSpec": "github:cbc12instructor/PaperRockScissorsGame",
+    "saveSpec": "github:cbc12instructor/PaperRockScissorsGame",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:cbc12instructor/PaperRockScissorsGame#52ffc76176b9eb79583554d684ba878e4034141f",
+  "_spec": "github:cbc12instructor/PaperRockScissorsGame",
+  "_where": "/Users/evangertis/development/cbc14instructor/PaperRockScissorsServer",
+  "author": {
+    "name": "Eric Harrison"
+  },
+  "bugs": {
+    "url": "https://github.com/cbc12instructor/PaperRockScissorsGame/issues"
+  },
+  "description": "Game Class for Paper Rock Scissors",
+  "homepage": "https://github.com/cbc12instructor/PaperRockScissorsGame#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "paperrockscissorsgame",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbc12instructor/PaperRockScissorsGame.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The Element Object</h1>
+<h2>The innerHTML Property</h2>
+
+<p id="myP">I am a paragraph.</p>
+<p id="myP2">This is the content from the second paragraph.</p>
+
+<p>The content of "myP2" is:</p>
+<p id="demo"></p>
+
+<script>
+let html = document.getElementById("myP2").innerHTML;
+document.getElementById("demo").innerHTML = html;
+</script>
+
+</body>
+</html>
