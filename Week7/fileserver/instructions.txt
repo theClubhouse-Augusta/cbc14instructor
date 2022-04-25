@@ -1,0 +1,2 @@
+(test put method) curl -X PUT -d hello http://localhost:8000/file.txt 
+(test delete method) curl -X DELETE http://localhost:8000/file.txt
